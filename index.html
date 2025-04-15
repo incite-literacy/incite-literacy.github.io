@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>chuck-stack.org - AI data and automation stack for small & medium orgs</title>
+    <meta name="description" content="helping organizations increase velocity/efficiency, deploy ai-enabled self-service tools, build a community of support." />
+    <!--<link rel="icon" type="image/svg+xml" href="favicon.svg"> -->
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <!-- Pico.css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.0.6/css/pico.min.css"
+    />
+    <script src="js/htmx.min.js"></script>
+
+    <!-- used to submit form via json -->
+    <script>
+      htmx.defineExtension('submitjson', {
+        onEvent: function (name, evt) {
+          if (name === "htmx:configRequest") {
+            evt.detail.headers['Content-Type'] = "application/json"
+          }
+        },
+        encodeParameters: function(xhr, parameters, elt) {
+          xhr.overrideMimeType('text/json') // override default mime type
+          const body = { // set your request body
+            parameters
+          }
+          return (JSON.stringify(body))
+        }
+      })
+    </script>
+    <script data-host="https://app.microanalytics.io" data-dnt="false" src="https://app.microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="container">
+      <hgroup>
+        <h1><a href="/" class="contrast" >chuck-stack.org</a></h1> <!-- &#8962; - home icon -->
+        <p>build velocity and efficiency - not infrastructure</p>
+      </hgroup>
+      <div id="navigation-placeholder"></div>
+    </header>
+    <!-- ./ Header -->
+
+    <!-- Main -->
+    <main class="container">
+
+      <!-- introduction-->
+      <!-- <p>   </p> quick copy-->
+      <section id="introduction">
+        <h2>Introduction</h2>
+        <!-- copied_from_introduction_page -->
+        <p> <b>What makes us special?</b> <u><i>conversational enterprise computing</i></u> on an open source technology stack... We are tired of ERP's hitting organizations with thousands of barely relevant fields that over complicate processes. We offer a better way for small and medium organizations to manage data, automate processes and build <a href="./ls/terminology.html#superclerk">superclerk</a> talent.</p>
+        <!-- /copied_from_introduction_page -->
+        <p> <a href="./ls/introduction.html">Learn more...</a> </p>
+      </section>
+      <!-- /introduction -->
+
+      <!-- Success -->
+      <section>
+        <h2>Picture of Success</h2>
+        <!-- copied_from_picture_success_page -->
+        <p> Imagine a world where your operations team writes work instructions and both your system and people magically execute those work instructions with near perfection. Imagine a world where IT no longer builds tools but instead helps people build logic themselves while ensuring everyone is bound by their roles. You do not need to imagine much longer. </p>
+        <!-- /copied_from_picture_success_page -->
+        <p> <a href="./ls/picture-success.html">Learn more...</a> </p> 
+      </section>
+      <!-- /Success -->
+
+      <!-- Form -->
+      <section id="stay-in-touch">
+        <h2>Getting Started</h2>
+        <p> For priority support and training <a href="https://buy.stripe.com/fZebLI7Qw2kPfnifYZ">Join Now</a>. To learn more about the stack-academy, view the <a href="./ls/stack-academy.html">stack-academy</a> page.</p>
+        <p> Not ready to join yet? That is OK! Submit your name and email to receive updates, releases, events, training and more.  </p>
+
+        <form id="stayInTouchForm" hx-post="https://form.chuck-stack.org/rpc/stk_form_post_fn" hx-ext="submitjson" hx-trigger="submit" hx-target="#form-response" hx-indicator="#loading" hx-swap="outerHTML" hx-on="htmx:afterRequest: this.reset()">
+          <input type="hidden" name="source_page" value="index">
+          <input type="hidden" name="action" value="learn-add">
+          <div class="grid">
+            <input
+              type="text"
+              name="firstname"
+              placeholder="Name"
+              aria-label="First name"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Email address"
+              aria-label="Email address"
+              autocomplete="email"
+              required
+            />
+            <button type="submit">Get Team Updates</button>
+          </div>
+          <fieldset>
+            <label for="terms">
+              <input type="checkbox" role="switch" id="terms" name="terms" required />
+              I agree to the
+              <a href="./ls/privacy-policy.html" >Privacy Policy</a>
+            </label>
+          </fieldset>
+        </form>
+        <div id="form-response"></div>
+        <div id="loading" class="htmx-indicator">Loading...</div>
+      </section>
+      <!-- /Form -->
+
+      <!-- Tools -->
+      <section id="tools">
+        <h2>chuck-stack Tools</h2>
+        <p> We focus on commonly used and well understood tools to make AI augmentation easier. The better AI understands a tool, the more AI can do the work for you.</p>
+        <p> We choose tools that build on one another: Incus => Linux => PostgreSQL => PostgREST => Nushell => AIChat => Zellij... that allow unlimited usage and scale massively.</p>
+        <p> <a href="./ls/stack-tools.html">Learn more...</a> </p>
+      </section>
+      <!-- /Tools -->
+
+      <!-- Best Practices -->
+      <section id="best-practice">
+        <h2>chuck-stack Best Practices</h2>
+        <p> Say what you are going to do. Do what you said you would do. Prove that you did it. Focus on continuous improvement. Welcome feedback! Build these concepts into your work instructions. Teach everyone to contribute. Empower AI to work for you using your instructions and your tools. </p>
+        <p> Apply these same concepts to the chuck-stack for application design. Use AI to execute these work instruction and extend the framework for your organization. </p>
+        <p> <a href="./ls/best-practices.html">Learn more...</a> </p> 
+      </section>
+      <!-- /Best Practices -->
+
+      <!-- Application -->
+      <section id="application">
+        <h2>chuck-stack Application Framework</h2>
+        <p>Data management goes beyond simple CRUD (create, read, update and delete) database operations. The system needs to make the right data available to the right person at the right time to make their jobs easier and prevent mistakes. There are three key features that make this vision a reality: 1) tool deployment, 2) workflow and 3) attribute tagging. </p>
+        <p> <a href="./ls/stack-application.html">Learn more...</a> </p> 
+      </section>
+      <!-- /Application -->
+
+    </main>
+    <!-- /Main -->
+
+	<!-- Footer -->
+	<footer class="container">
+      <!-- Theme Picker -->
+      <nav>
+        <ul>
+          <li>
+            <details class="dropdown">
+              <summary role="button" class="secondary">Theme</summary>
+              <ul>
+                <li><a href="#" data-theme-switcher="auto">Auto</a></li>
+                <li><a href="#" data-theme-switcher="light">Light</a></li>
+                <li><a href="#" data-theme-switcher="dark">Dark</a></li>
+              </ul>
+            </details>
+          </li>
+        </ul>
+      </nav>
+      <!-- /Theme Picker -->
+	  <!-- copyright/ -->
+	  <small id="copyright"></small>
+	</footer>
+	<!-- /Footer -->
+
+    <!-- DRY components/ -->
+    <script src="js/load-common-elements.js"></script>
+	
+    <!-- Minimal theme switcher/ -->
+    <script src="js/minimal-theme-switcher.js"></script>
+
+    <!-- Copyright/ -->
+    <script src="js/copyright.js"></script>
+
+    <!-- Form validation/ -->
+    <script src="js/form-validation.js"></script>
+
+  </body>
+</html> 

@@ -1,0 +1,354 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Introduction</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+        <script data-host="https://app.microanalytics.io" data-dnt="false" src="https://app.microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ul class="chapter">
+                    <li><a class="active" href="../">chuck-stack Home</a></li> <!--chuboe changed-->
+                </ul>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="introduction.html" class="active">Introduction</a></li><li class="chapter-item expanded "><a href="picture-of-success.html"><strong aria-hidden="true">1.</strong> Picture of Success</a></li><li class="chapter-item expanded "><a href="bring-your-own-project.html"><strong aria-hidden="true">2.</strong> Bring Your Own Project</a></li><li class="chapter-item expanded "><a href="example-project-ai-powered-digital-magazine.html"><strong aria-hidden="true">3.</strong> Example Project AI Powered Digital Magazine</a></li><li class="chapter-item expanded "><a href="faq.html"><strong aria-hidden="true">4.</strong> FAQ</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <!-- add things here that will go above the body navigation -->
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="-the-future-of-learning-is-yours"><a class="header" href="#-the-future-of-learning-is-yours">🚀 The Future of Learning is Yours</a></h1>
+<p>Incite Literacy is a hands-on learning experience that equips learners with the skills and adaptability needed to thrive in a rapidly evolving world.</p>
+<h2 id="toc"><a class="header" href="#toc">TOC</a></h2>
+<h2 id="what-you-will-learn"><a class="header" href="#what-you-will-learn">What You Will Learn</a></h2>
+<p>Through <strong>Project-Based Learning (PBL), Design Thinking</strong>  and the <strong>integration of AI,</strong> you’ll develop future-ready skills in the following focus areas:</p>
+<ul>
+<li>
+<p><strong>Language – To Communicate, Defend, and Influence</strong>
+Students develop the ability to express ideas clearly, advocate for themselves, and influence others through writing, speaking, and critical analysis.</p>
+</li>
+<li>
+<p><strong>Technology – To Build, Solve, and Adapt</strong>
+Students learn how to leverage AI, data, and digital tools to create, problem-solve, and innovate.</p>
+</li>
+<li>
+<p><strong>Business Operations – To Strategize, Execute, and Lead</strong><br />
+Students gain skills to understand markets, manage resources, and turn ideas into action —whether launching a startup or leading a team.</p>
+</li>
+</ul>
+<hr />
+<h2 id="how-you-will-learn-it"><a class="header" href="#how-you-will-learn-it">How You Will Learn It</a></h2>
+<p>At Incite Literacy, learning isn’t about grades, tests, or busywork.<br />
+It’s about <strong>doing the real work</strong> of thinking, building, and creating.</p>
+<p>You’ll learn through meaningful projects, honest conversations, and tools that actually prepare you for the future—not the past.</p>
+<p><strong>No tests. No pressure. Just growth.</strong></p>
+<p><a href="#"><strong>Learn more about how it works →</strong></a></p>
+<hr />
+<h2 id="for-whom-is-incite-literacy"><a class="header" href="#for-whom-is-incite-literacy">For whom is Incite Literacy?</a></h2>
+<p>This isn’t school. Incite Literacy is designed for curious and ambitious learners —primarily ages 16-24, but open to anyone that is ready to explore, build, and take control of their learning.</p>
+<p>🚀 <strong>You belong here if:</strong></p>
+<ul>
+<li>You’re <strong>curious, driven, and ready to create—not just consume.</strong></li>
+<li>You want to <strong>develop real-world skills in language, technology, and business.</strong></li>
+<li>You see AI as a <strong>powerful tool for innovation, not as a replacement for effort.</strong></li>
+</ul>
+<p>⚠️ <strong>This isn’t for you if:</strong></p>
+<ul>
+<li>You need a <strong>step-by-step guide for everything.</strong></li>
+<li>You’re looking for <strong>grades, tests, or a diploma.</strong></li>
+<li>You’re not willing to <strong>experiment, take risks, and think differently.</strong></li>
+</ul>
+<hr />
+<h2 id="why-incite-literacy-now"><a class="header" href="#why-incite-literacy-now">Why Incite Literacy Now</a></h2>
+<p>The world is changing—fast. AI is revolutionizing industries. Automation is augmenting jobs. Information is everywhere, yet traditional education hasn’t caught up. Schools still prioritize memorization over <strong>real skills</strong> and standardized tests over <strong>critical thinking</strong>.</p>
+<p>That’s where <strong>Incite Literacy</strong> comes in.</p>
+<p>We’re not here to give you busywork, grades, or a rigid curriculum. <strong>We’re here to give you the tools to learn, adapt, and create your own future.</strong></p>
+<p>🔹 We teach you how to think, build, and adapt.<br />
+🔹 We use AI to enhance—not replace—your creativity.
+🔹 We focus on real-world projects that you choose.</p>
+<p>[<strong>Explore Incite Literacy →</strong>]</p>
+<hr />
+<h2 id="purpose"><a class="header" href="#purpose">Purpose</a></h2>
+<p>At <strong>Incite Literacy</strong>, our purpose is simple: <strong>return agency to the learner</strong>.</p>
+<p>Incite Literacy is unscripted, real-world learning driven by curiosity, relevance, and purpose. Our projects are designed to be lived—not just completed—with students taking the lead in shaping what, how, and why they learn.</p>
+<p><strong>Sound “vague”? “Too broad”? “Not measurable enough”?</strong><br />
+That’s the system talking. You’ve been conditioned to believe that learning must be linear, prepackaged, and testable.</p>
+<p>But REAL learning doesn’t work like that.</p>
+<p>Curiosity, creativity, and exploration have been suffocated—shrunk down to fit inside rubrics and GPA formulas meant for a world that no longer exists.</p>
+<p>At Incite Literacy, we believe:</p>
+<ul>
+<li><strong>Learning is a process</strong>—and it should be owned by the learner.</li>
+<li><strong>Agency is not optional</strong>—it’s the foundation of future-ready learning.</li>
+<li><strong>Growth isn’t standardized</strong>—it’s self-driven, iterative, and personal.</li>
+</ul>
+<p><strong>We’re not here to prescribe your path.</strong>
+We’re here to help you discover what matters to <em>you</em>—and give you the tools to build from there.</p>
+<blockquote>
+<p><strong>We won’t tell you what to do.</strong><br />
+We’ll help you figure out what <em>you</em> want to do.</p>
+</blockquote>
+<blockquote>
+<p><strong>We won’t tell you how to do it.</strong><br />
+The challenge (and the joy) is in the process.</p>
+</blockquote>
+<blockquote>
+<p><strong>We won’t tell you when you’re done.</strong><br />
+You decide when the work is real, relevant, and ready.</p>
+</blockquote>
+<p>This is <em>your</em> learning.</p>
+<p><strong>Own it. Shape it. Incite it.</strong></p>
+<hr />
+<h2 id="core-principle"><a class="header" href="#core-principle">Core Principle</a></h2>
+<p>At the heart of Incite Literacy is the unshakeable conviction that ALL people are born to learn and do - without limits.</p>
+<p>No one is expected to have all of the answers; however, ALL people have the opportunity to explore, take risks, and make mistakes without being penalized.</p>
+<p>Incite Literacy is here to ignite in you what is already there.</p>
+<hr />
+<h2 id="what-doesnt-kill-you-makes-you-ready"><a class="header" href="#what-doesnt-kill-you-makes-you-ready">What Doesn’t Kill You Makes You… Ready.</a></h2>
+<p><strong>Incite Literacy is here to move you toward the future.</strong><br />
+But let’s be honest: nothing worth your time, effort, blood, sweat, or tears comes easy.</p>
+<p>Real learning is frustrating.<br />
+You’ll second-guess yourself.<br />
+You’ll have near misses and total wins.<br />
+And through it all, you’ll <em>feel</em> learning—maybe for the first time.</p>
+<p>We believe that discomfort is the part of learning you’ve been missing all along.<br />
+You’ve needed something that moves you, challenges you, lights a fire in you.<br />
+That doesn’t come without struggle.</p>
+<p>You’ll have to learn how to sit with that struggle.<br />
+Push through it.<br />
+Grow because of it.</p>
+<hr />
+<h3 id="if-youre-a-parent"><a class="header" href="#if-youre-a-parent">If you're a parent...</a></h3>
+<p>Your child might feel stuck.<br />
+Paralyzed by the freedom they’ve never had.<br />
+And that will make <em>you</em> uncomfortable, too.</p>
+<p>Because watching them wrestle with learning—without a structure to fall back on—is hard.<br />
+It’s not what we’ve been taught learning looks like.<br />
+But it <em>is</em> what real growth feels like.</p>
+<hr />
+<h3 id="ask-yourself"><a class="header" href="#ask-yourself">Ask yourself:</a></h3>
+<ul>
+<li>What do you want?</li>
+<li>What do you believe?</li>
+<li>What kind of life are you building?</li>
+<li>Who are <em>you</em>?</li>
+</ul>
+<p>If you can sit with those questions—and let them shape your learning—<br />
+you’re already doing the work.</p>
+<hr />
+<h3 id="at-incite-literacy"><a class="header" href="#at-incite-literacy">At Incite Literacy:</a></h3>
+<blockquote>
+<p>There’s no such thing as failure.
+Only feedback. Only forward.</p>
+</blockquote>
+<p>If you’re ready to take control of your learning, you’re in the right place.</p>
+<hr />
+<h3 id="ready-to-get-started"><a class="header" href="#ready-to-get-started">🚀Ready to get started?</a></h3>
+<p><a href="#"><strong>Join Incite Literacy Now</strong></a><br />
+<em>Take the first step toward learning that means something.</em></p>
+
+                        <br>
+                        <p>Copyright &copy; 2024-<script>document.write(new Date().getFullYear())</script>, CHUBOE LLC. All rights reserved.</p> <!--chuboe changed-->
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+
+                            <a rel="next prefetch" href="picture-of-success.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+
+                    <a rel="next prefetch" href="picture-of-success.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
