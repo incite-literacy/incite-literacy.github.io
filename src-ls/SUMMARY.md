@@ -1,5 +1,5 @@
--[Introduction](introduction.md)
+- [Introduction](introduction.md)
 - [Picture of Success](picture-of-success.md)
--  [Bring Your Own Project](bring-your-own-project.md)
+- [Bring Your Own Project](bring-your-own-project.md)
   - [Example Project AI Powered Digital Magazine](example-project-ai-powered-digital-magazine.md)
 - [FAQ](faq.md)
