@@ -1,5 +1,5 @@
 # Picture of Success 
-
+<!-- toc -->
 ### A New Kind of Literacy for a New Kind of World
 
 Traditional education was built for a different time and purpose.  
@@ -24,7 +24,6 @@ They leave with a portfolio, a plan, and the confidence to shape what comes next
 ## ## What Success Looks Like at Incite Literacy
 
 ### At Incite Literacy, success isn’t about test scores or report cards.  
-
 Success looks like:
 
 - **Launching a podcast** that tells your story, shares your passion, and builds an audience that grows with you.
@@ -49,26 +48,13 @@ At Incite Literacy, we use **Project-Based Learning (PBL)** and **Design Thinkin
 
 They give you a clear, adaptable process that helps you:
 
-- Understand the *why* behind your project — what problem are you solving, and why does it matter?  
-- Identify *who* is impacted — your audience, users, collaborators, or community  
-- Define the *steps* you’ll take — from research to brainstorming, building, and refining  
-- Decide *how* to bring it to life — what tools, resources, or strategies you’ll use  
-- Reflect on *what worked* and *what didn’t* — so you can improve, adapt, and grow  
+- Understand the **why** behind your project — what problem are you solving, and why does it matter?  
+- Identify **who** is impacted — your audience, users, collaborators, or community  
+- **Define the steps** you’ll take — from research to brainstorming, building, and refining  
+- Decide **how** to bring it to life — what tools, resources, or strategies you’ll use  
+- Reflect on **what worked** and **what didn’t** — so you can improve, adapt, and grow  
 
-What makes Incite Literacy different is that you're given the time, space, and support that *real learning* requires.  
-
-Deadlines exist—but they’re there to help you learn **how to manage your time**, not punish you when things take longer than expected.
-
-You’re going to make mistakes.  
-Things won’t always go as planned.  
-And that’s not just okay—it’s part of the process.
-
-When things fall apart, you try again.  
-You reflect, adjust, and move forward.
-
-That’s how deep learning happens.  
-That’s how confidence is built.  
-That’s how you grow.
+What makes Incite Literacy different is that you're given the time, space, and support that real learning requires.  
 
 ---
 

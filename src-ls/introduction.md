@@ -4,64 +4,11 @@ Incite Literacy is a hands-on learning experience that equips learners with the 
 
 ## TOC
 
+<!-- toc -->
 
-## What You Will Learn
-
-Through **Project-Based Learning (PBL), Design Thinking**  and the **integration of AI,** you’ll develop future-ready skills in the following focus areas:
-
-- **Language – To Communicate, Defend, and Influence** 
-Students develop the ability to express ideas clearly, advocate for themselves, and influence others through writing, speaking, and critical analysis.  
-
-- **Technology – To Build, Solve, and Adapt**
- Students learn how to leverage AI, data, and digital tools to create, problem-solve, and innovate. 
-
-- **Business Operations – To Strategize, Execute, and Lead**  
-Students gain skills to understand markets, manage resources, and turn ideas into action —whether launching a startup or leading a team.
 
 ---
-## How You Will Learn It
-
-At Incite Literacy, learning isn’t about grades, tests, or busywork.  
-It’s about **doing the real work** of thinking, building, and creating.  
-
-You’ll learn through meaningful projects, honest conversations, and tools that actually prepare you for the future—not the past.
-
-**No tests. No pressure. Just growth.**
-
-[**Learn more about how it works →**](#)
-
----
-## For whom is Incite Literacy?
-
-This isn’t school. Incite Literacy is designed for curious and ambitious learners —primarily ages 16-24, but open to anyone that is ready to explore, build, and take control of their learning.  
-
-🚀 **You belong here if:**  
-- You’re **curious, driven, and ready to create—not just consume.**  
-- You want to **develop real-world skills in language, technology, and business.**  
-- You see AI as a **powerful tool for innovation, not as a replacement for effort.**  
-
-⚠️ **This isn’t for you if:**  
-- You need a **step-by-step guide for everything.**  
-- You’re looking for **grades, tests, or a diploma.**  
-- You’re not willing to **experiment, take risks, and think differently.** 
-
----
-## Why Incite Literacy Now
-
-The world is changing—fast. AI is revolutionizing industries. Automation is augmenting jobs. Information is everywhere, yet traditional education hasn’t caught up. Schools still prioritize memorization over **real skills** and standardized tests over **critical thinking**.  
-
-That’s where **Incite Literacy** comes in.  
-
-We’re not here to give you busywork, grades, or a rigid curriculum. **We’re here to give you the tools to learn, adapt, and create your own future.**
-
-🔹 We teach you how to think, build, and adapt.  
-🔹 We use AI to enhance—not replace—your creativity.
-🔹 We focus on real-world projects that you choose. 
-
-[**Explore Incite Literacy →**]
-
----
-## Purpose
+## 🔥 Purpose
 
 At **Incite Literacy**, our purpose is simple: **return agency to the learner**.
 
@@ -97,56 +44,48 @@ This is *your* learning.
 **Own it. Shape it. Incite it.**
 
 ---
-## Core Principle
 
-At the heart of Incite Literacy is the unshakeable conviction that ALL people are born to learn and do - without limits. 
+## ⏱️ Why Incite Literacy Now
 
-No one is expected to have all of the answers; however, ALL people have the opportunity to explore, take risks, and make mistakes without being penalized.   
+The world is changing—fast. AI is revolutionizing industries. Automation is augmenting jobs. Information is everywhere, yet traditional education hasn’t caught up. Schools still prioritize memorization over **real skills** and standardized tests over **critical thinking**.  
 
-Incite Literacy is here to ignite in you what is already there. 
+That’s where **Incite Literacy** comes in.  
 
----
-## What Doesn’t Kill You Makes You… Ready.
+We’re not here to give you busywork, grades, or a rigid curriculum. **We’re here to give you the tools to learn, adapt, and create your own future.**
 
-**Incite Literacy is here to move you toward the future.**  
-But let’s be honest: nothing worth your time, effort, blood, sweat, or tears comes easy.
-
-Real learning is frustrating.  
-You’ll second-guess yourself.  
-You’ll have near misses and total wins.  
-And through it all, you’ll *feel* learning—maybe for the first time.
-
-We believe that discomfort is the part of learning you’ve been missing all along.  
-You’ve needed something that moves you, challenges you, lights a fire in you.  
-That doesn’t come without struggle.
-
-You’ll have to learn how to sit with that struggle.  
-Push through it.  
-Grow because of it.
+🔹 We teach you how to think, build, and adapt.  
+🔹 We use AI to enhance—not replace—your creativity.
+🔹 We focus on real-world projects that you choose. 
 
 ---
 
-### If you're a parent...
+## Incite Literacy is Built for You
 
-Your child might feel stuck.  
-Paralyzed by the freedom they’ve never had.  
-And that will make *you* uncomfortable, too.
+This isn’t school. Incite Literacy is designed for curious and ambitious learners —primarily ages 16-24, but for anyone that is ready to explore, build, and take control of their learning.  
 
-Because watching them wrestle with learning—without a structure to fall back on—is hard.  
-It’s not what we’ve been taught learning looks like.  
-But it *is* what real growth feels like.
+🚀 **You belong here if:**  
+- You’re **curious, driven, and ready to create—not just consume.**  
+- You want to **develop real-world skills in language, technology, and business.**  
+- You see AI as a **powerful tool for innovation, not as a replacement for effort.**  
+
+⚠️ **This isn’t for you if:**  
+- You need a **step-by-step guide for everything.**  
+- You’re looking for **grades, tests, or a diploma.**  
+- You’re not willing to **experiment, take risks, and think differently.** 
 
 ---
+## What You Will Learn
 
-### Ask yourself:
+Through **Project-Based Learning (PBL), Design Thinking**  and the **integration of AI,** you’ll develop future-ready skills in the following focus areas:
 
-- What do you want?  
-- What do you believe?  
-- What kind of life are you building?  
-- Who are *you*?
+- **Language – To Communicate, Defend, and Influence** 
+Students develop the ability to express ideas clearly, advocate for themselves, and influence others through writing, speaking, and critical analysis.  
 
-If you can sit with those questions—and let them shape your learning—  
-you’re already doing the work.
+- **Technology – To Build, Solve, and Adapt**
+ Students learn how to leverage AI, data, and digital tools to create, problem-solve, and innovate. 
+
+- **Business Operations – To Strategize, Execute, and Lead**  
+Students gain skills to understand markets, manage resources, and turn ideas into action —whether launching a startup or leading a team.
 
 ---
 
