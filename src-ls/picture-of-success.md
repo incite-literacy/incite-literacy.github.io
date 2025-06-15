@@ -21,7 +21,7 @@ They leave with a portfolio, a plan, and the confidence to shape what comes next
 *Because the future belongs to those who can think, build, and adapt.*
 
 ---
-## ## What Success Looks Like at Incite Literacy
+## What Success Looks Like at Incite Literacy
 
 ### At Incite Literacy, success isn’t about test scores or report cards.  
 Success looks like:
