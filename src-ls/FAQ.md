@@ -13,7 +13,24 @@ Incite Literacy is for anyone! Learners 16+ but really ANYONE who’s ready to t
 ---
 ### Incite Literacy is NOT a great fit for…
 
+- ❌ **Passive learners who expect to be told exactly what to do**  
+  If you wait for instructions instead of taking initiative, you’ll struggle. Incite is for people who want to think for themselves and build something real.
 
+- 🧱 **People unwilling to adapt or learn new technologies**  
+  If you resist using AI, digital tools, or project platforms, this experience will feel overwhelming instead of empowering.
+
+- 🏅 **Grade-chasers who care more about scores than skills**  
+  If your motivation ends with a GPA or gold star, you’ll miss the deeper value of learning how to think, create, and contribute.
+
+- 🙉 **Those who avoid feedback or fear failure**  
+  Growth requires reflection, revision, and resilience. If you can’t handle critique or see mistakes as progress, you’ll stall out quickly.
+
+- 🚪 **People looking for shortcuts or easy answers**  
+  This isn’t a backdoor to success—it’s a launchpad for people ready to do the work. If you’re just trying to coast, this isn’t the place.
+
+---
+
+🧭 *Incite Literacy is built for explorers, not box-checkers.*
 
 
 ---
