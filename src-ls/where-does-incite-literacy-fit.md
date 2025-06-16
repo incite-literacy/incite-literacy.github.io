@@ -1,5 +1,5 @@
-# Incite Literacy isn't a school replacement. 
-## 🚀 It’s a launching pad.
+# Incite Literacy isn't a school replacement
+**… It’s a launching pad.🚀**
 
 
 Whether you're carving your own path or navigating the one handed to you, Incite Literacy plugs in where traditional learning cuts out—bringing relevance, agency, and real-world readiness.
