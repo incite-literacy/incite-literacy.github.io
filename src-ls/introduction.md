@@ -2,10 +2,7 @@
 
 Incite Literacy is a hands-on learning experience that equips learners with the skills and adaptability needed to thrive in a rapidly evolving world. 
 
-## TOC
-
 <!-- toc -->
-
 
 ---
 ## 🔥 Purpose 
