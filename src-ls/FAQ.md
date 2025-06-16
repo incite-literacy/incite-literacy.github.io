@@ -13,6 +13,9 @@ Incite Literacy is for anyone! Learners 16+ but really ANYONE who’s ready to t
 ---
 ### Incite Literacy is NOT a great fit for…
 
+
+
+
 ---
 ### How does AI fit into the learning experience?  
 
