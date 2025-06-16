@@ -25,8 +25,6 @@ This space is built for people who are ready to do more than follow directions. 
 - 🧵 **Creative problem-solvers who see connections others miss**  
   You like mixing ideas, trying new angles, and coming up with something no one else thought of.
 
----
-
 🔥 *Incite Literacy is where curiosity meets capability. If you’re ready to build something real, let’s go.*
 
 ---
