@@ -6,9 +6,12 @@ A hands-on learning platform where **language, technology, and operations** meet
 No grades, no lectures—just **real-world projects** that prepare you for the future. 
 
 ---
-### Who is this for? 
+### Incite Literacy is a great fit for…
 
 Incite Literacy is for anyone! Learners 16+ but really ANYONE who’s ready to think differently, learn by doing, and use AI as a tool for success.
+
+---
+### Incite Literacy is NOT a great fit for…
 
 ---
 ### How does AI fit into the learning experience?  
