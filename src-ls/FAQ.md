@@ -8,7 +8,30 @@ No grades, no lectures—just **real-world projects** that prepare you for the f
 ---
 ### Incite Literacy is a great fit for…
 
-Incite Literacy is for anyone! Learners 16+ but really ANYONE who’s ready to think differently, learn by doing, and use AI as a tool for success.
+Incite Literacy is for anyone! Learners 16+ bu
+
+## Who *Will* Thrive at Incite Literacy 🔥
+
+This space is built for people who are ready to do more than follow directions. If any of these sound like you, you’re in the right place:
+
+- 🚀 **Self-starters who like to figure things out**  
+  You don’t need all the answers before you begin—you’re curious, resourceful, and not afraid to try.
+
+- 🧠 **Critical thinkers who ask why—not just how**  
+  You question what you’re told, look beneath the surface, and want to understand the *why* behind the work.
+
+- 💻 **Tech-curious learners eager to use AI as a tool—not a crutch**  
+  You’re not afraid to test new tools and use AI to push your thinking, not replace it.
+
+- 🎯 **People who want their learning to *mean something***  
+  If you’re tired of pointless assignments and want to build real-world skills that open doors, this is for you.
+
+- 🧵 **Creative problem-solvers who see connections others miss**  
+  You like mixing ideas, trying new angles, and coming up with something no one else thought of.
+
+---
+
+🔥 *Incite Literacy is where curiosity meets capability. If you’re ready to build something real, let’s go.*
 
 ---
 ### Incite Literacy is NOT a great fit for…
