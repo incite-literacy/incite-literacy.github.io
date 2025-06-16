@@ -1,7 +1,7 @@
 <!-- toc -->
 ### How You Will Learn It
 
-We use [[**Project-Based Learning (PBL)** and **Design Thinking (DT)**]] to help you take ownership of your learning.  
+We use [**Project-Based Learning (PBL)** and **Design Thinking (DT)**](project-based-learning-and-design-thinking.md) to help you take ownership of your learning.  
 
 From beginning to end you're driving the learning process. 
 
