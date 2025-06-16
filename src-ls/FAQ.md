@@ -6,10 +6,6 @@ A hands-on learning platform where **language, technology, and operations** meet
 No grades, no lectures—just **real-world projects** that prepare you for the future. 
 
 ---
-### Incite Literacy is a great fit for…
-
-Incite Literacy is for anyone! Learners 16+ bu
-
 ## Who *Will* Thrive at Incite Literacy 🔥
 
 This space is built for people who are ready to do more than follow directions. If any of these sound like you, you’re in the right place:
