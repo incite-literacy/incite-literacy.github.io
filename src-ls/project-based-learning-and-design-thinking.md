@@ -1,4 +1,4 @@
-## **Project Based Learning and Design Thinking as Frameworks**  
+# **Project Based Learning and Design Thinking as Frameworks**  
 <!-- toc -->
 Both **Project Based Learning (PBL) and Design Thinking (DT) provide structured processes** that guide learning.  
 

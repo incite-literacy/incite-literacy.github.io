@@ -1,4 +1,4 @@
-## FAQ Section 
+# FAQ Section 
 <!-- toc -->
 ### What is Incite Literacy?  
 
