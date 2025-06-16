@@ -1,9 +1,13 @@
 # FAQ Section 
 <!-- toc -->
-### What is Incite Literacy?  
+### What is Incite Literacy? 🤔
 
-A hands-on learning platform where **language, technology, and operations** meet AI.  
-No grades, no lectures—just **real-world projects** that prepare you for the future. 
+Incite Literacy is an online learning platform built for people who want to do more than just pass a class.  
+It’s where **language 🗣️, technology 💻, and operations ⚙️** come together through hands-on projects powered by AI 🤖.
+
+There are no grades ❌, no lectures 💤—just real work that builds real skills so you can create, pivot, or level up with purpose.
+
+If you're ready to take learning into your own hands, you're in the right place.
 
 ---
 ## Who *Will* Thrive at Incite Literacy 🔥
