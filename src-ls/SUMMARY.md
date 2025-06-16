@@ -1,5 +1,13 @@
 - [Introduction](introduction.md)
+	- Purpose 
+	- Why Incite Literacy Now
+	- Incite Literacy is Built for You
+	- What You Learn
 - [Picture of Success](picture-of-success.md)
+	- A New Kind of Literacy for A New Kind of World
+	- What Success Looks Like at Incite Literacy 
+	- How Is This Possible?
+	- Who is in Charge? You Are.
 -  [Where and How Does Incite Literacy Fit](Where%20and%20How%20Does%20Incite%20Literacy%20Fit.md)
 -  [How You Learn](How%20You%20Learn.md)
 	-  [project-based-learning-and-design-thinking](project-based-learning-and-design-thinking.md)

@@ -8,7 +8,7 @@ Incite Literacy is a hands-on learning experience that equips learners with the 
 
 
 ---
-## 🔥 Purpose
+## 🔥 Purpose 
 
 At **Incite Literacy**, our purpose is simple: **return agency to the learner**.
 
@@ -65,7 +65,7 @@ This isn’t school. Incite Literacy is designed for curious and ambitious learn
 
 🚀 **You belong here if:**  
 - You’re **curious, driven, and ready to create—not just consume.**  
-- You want to **develop real-world skills in language, technology, and business.**  
+- You want to **develop real-world skills in language, technology, and operations.**  
 - You see AI as a **powerful tool for innovation, not as a replacement for effort.**  
 
 ⚠️ **This isn’t for you if:**  
