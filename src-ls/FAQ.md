@@ -28,10 +28,7 @@ Incite Literacy is for anyone! Learners 16+ but really ANYONE who’s ready to t
 - 🚪 **People looking for shortcuts or easy answers**  
   This isn’t a backdoor to success—it’s a launchpad for people ready to do the work. If you’re just trying to coast, this isn’t the place.
 
----
-
-🧭 *Incite Literacy is built for explorers, not box-checkers.*
-
+- 🧭 *Incite Literacy is built for explorers, not box-checkers.*
 
 ---
 ### How does AI fit into the learning experience?  
