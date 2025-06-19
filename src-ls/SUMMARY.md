@@ -16,5 +16,5 @@
 - [Bring Your Own Project](bring-your-own-project.md)
   - [Example Project AI Powered Digital Magazine](example-project-ai-powered-digital-magazine.md)
 - [FAQ](faq.md)
-- Reference Materials
-	- [PBL & DT as Frameworks](project-based-learning-and-design-thinking.md)
+---
+- [PBL & DT as Frameworks](project-based-learning-and-design-thinking.md)
