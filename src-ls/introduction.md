@@ -1,10 +1,11 @@
 
 # 🚀 Ready for More?
 
-Incite Literacy is an hands-on learning experience that equips learners with the skills, knowledge, and adaptability needed to thrive in a rapidly evolving world. .
+Incite Literacy is an hands-on learning experience that equips learners with the skills, knowledge, and adaptability needed to thrive in a rapidly evolving world. 
 
 We focus on building real skills—**language**, **tech**, and **operations**—through real work.  
 Every project is grounded in **purpose**, powered by **AI 🤖**, and shaped by your **curiosity 🔍** and **drive 🔥**.  
+
 There are **no grades**, **no lectures**, and **no one-size-fits-all paths**—just you, building what comes next.
 
 Whether you're looking to:
@@ -36,7 +37,7 @@ If you’re ready to take control of your learning, you’re in the right place.
 
 ### 🚀Ready to get started?
 
-[**Join Incite Literacy Now**](#)  
+[**Join Incite Literacy Now**](#https://buy.stripe.com/00w3cxd3829Ea3Ygbs48003)  
 *Take the first step toward learning that means something.*
 
 

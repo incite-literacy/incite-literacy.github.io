@@ -12,4 +12,4 @@ This isn’t school. Incite Literacy is designed for curious and ambitious learn
 - You’re looking for **grades, tests, or a diploma.**  
 - You’re not willing to **experiment, take risks, and think differently.** 
 
-[Learn More Here](faq.md)
+[**Learn More Here**](faq.md)
