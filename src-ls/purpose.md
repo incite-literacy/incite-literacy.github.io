@@ -17,17 +17,19 @@ At Incite Literacy, we believe:
 - **✊🏽 Agency is not optional**—it’s the foundation of future-ready learning.  
 - **🌱 Growth isn’t standardized**—it’s self-driven, iterative, and personal.  
 
-**We’re not here to prescribe your path.**
-We’re here to help you discover what matters to *you*—and give you the tools to build from there.
+---
 
->**We won’t tell you what to do.**  
->We’ll help you figure out what *you* want to do.
+**We’re here to help you shape your own path.**  
+At Incite Literacy, you lead your learning—and we’re here to support you every step of the way.
 
->**We won’t tell you how to do it.**  
->The challenge (and the joy) is in the process.
+>**You choose what matters.**  
+>We’ll help you explore, refine, and build from there.
 
->**We won’t tell you when you’re done.**  
->You decide when the work is real, relevant, and ready.
+>**You choose how to pursue it.**  
+>We’ll guide you through a process that’s challenging, creative, and yours.
+
+>**You choose when it’s ready.**  
+>When it’s real, relevant, and reflects your voice—you’ll know.
 
 This is *your* learning. 
 
