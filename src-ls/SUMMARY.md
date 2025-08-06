@@ -1,21 +1,33 @@
-- [Introduction](introduction.md)
-	- [Purpose](purpose.md)
-	- [Community](community.md)
-	- [Where Does Incite Literacy Fit](where-does-incite-literacy-fit.md)
-	- [Why Incite Literacy Now](why-incite-literacy-now.md)
-	- [Incite Literacy is Built for You](incite-literacy-is-built-for-you.md)
-	- [What You’ll Actually Learn](what-you-will-learn.md)
-		- [Why Language, Tech, and Operations](why-focus-areas.md)
-		- [Aligning Common Core](aligning-focus-areas-with-common-core.md)
-		- [Aligning Frameworks](align-focus-areas-with-common-core-frameworks.md)
-- [What Learning Looks Like Here](how-you-learn.md)
-- [Picture of Success](picture-of-success.md)
-	- [What Success Looks Like](what-success-looks-like-at-incite-literacy.md)
-	- [Example Weekly Schedule](Weekly-schedule-3-draft.md)
-	- [How We Make This Happen](how-is-this-possible.md)
-	- [Who's in Charge](who-is-in-charge.md)
-- [Bring Your Own Project](bring-your-own-project.md)
-  - [Example Project AI Powered Digital Magazine](example-project-ai-powered-digital-magazine.md)
-- [FAQ](faq.md)
----
-- [PBL & DT as Frameworks](project-based-learning-and-design-thinking.md)
+# Summary
+
+[Incite Literacy](Homepage-Draft-2.md)
+
+- [Getting Started](Getting-started.md)
+- [Mission & Vision](Mission-vision.md)
+
+# Core Concepts
+
+- [Why Incite Literacy Now](Why-incite-literacy-now.md)
+- [Core Competencies Aligned](Core-competencies-aligned.md)
+- [How It Works](How-it-works.md)
+  - [Learning Frameworks (PBL & DT)](PBL-DT-Frameworks.md)
+
+# The Incite Experience
+
+- [Who We're Built For](learner-profile.md)
+- [A Day in the Life](Daily-schedule.md)
+- [Collaboration & Community](Community-collaboration.md)
+
+# What Success Looks Like
+
+- [What Success Looks Like](What-success-looks-like.md)
+  - [Launch a Podcast](Example-podcast.md)
+  - [Build a Digital Brand](Digital-brand-example.md)
+  - [Publish Your Writing](Publish-writing-example.md)
+  - [Create a Prototype](Prototype-example.md)
+  - [Collaborate on a Project](Collaboration-project-example.md)
+  - [Research & Innovate](Research-innovation-example.md)
+
+# Resources
+
+- [Frequently Asked Questions](FAQ-draft-2.md)
