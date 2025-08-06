@@ -10,11 +10,11 @@ If you’re ready to grow, create, and build skills that actually matter, you’
 
 ## ✅ Is This You?
 
-- 🔹 **You’re curious about how things work—and want to try new ideas**  
-- 🔹 **You want to build skills that open real opportunities**  
-- 🔹 **You’re interested in learning how to use AI, collaborate, and create projects with purpose**  
-- 🔹 **You like the idea of working with guidance, not just following directions**  
-- 🔹 **You want to turn ideas into action with the support of a learning community**  
+- You're curious about how things work—and want to try new ideas  
+- You want to build skills that open real opportunities  
+- You're interested in learning how to use AI, collaborate, and create projects with purpose  
+- You like the idea of working with guidance, not just following directions  
+- You want to turn ideas into action with the support of a learning community  
 
 ---
 
